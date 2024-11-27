@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Sedan",
+      "description": "A comfortable sedan perfect for city rides.",
+      "imageUrl": "https://via.placeholder.com/400x300?text=Sedan"
+    },
+    {
+      "id": 2,
+      "name": "SUV",
+      "description": "A spacious SUV suitable for long drives.",
+      "imageUrl": "https://via.placeholder.com/400x300?text=SUV"
+    },
+    {
+      "id": 3,
+      "name": "Convertible",
+      "description": "A stylish convertible for a fun experience.",
+      "imageUrl": "https://via.placeholder.com/400x300?text=Convertible"
+    }
+  ]
+  

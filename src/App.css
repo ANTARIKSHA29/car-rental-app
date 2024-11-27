@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* src/styles/App.css */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Poppins', sans-serif; /* Modern font */
+}
+
+h1 {
+  color: #343a40;
+  font-weight: bold;
+}
+
+.carousel-caption h3 {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.carousel-item img {
+  border-radius: 10px;
+}
+
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
+/* src/App.css */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Set a fixed height for the carousel */
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make sure the image covers the entire carousel without distortion */
+  transition: opacity 0.5s ease;
+}
+
+/* Styling for rental and contact pages */
+.rental-page, .contact-page {
+  margin: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure space between the carousel and other pages */
+.App {
+  margin-top: 420px; /* Adds space below carousel */
+}
+
+/* Additional styles for rental and contact sections */
+.rental-page h2, .contact-page h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.rental-page p, .contact-page p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
